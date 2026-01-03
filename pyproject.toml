@@ -17,9 +17,9 @@ authors = [
     {name = "Fedor Lyanguzov"},
 ]
 
-[project.optional-dependencies]
-test = ["pytest"]
-lint = [
+[dependency-groups]
+dev = [
+  "pytest",
   "black",
   "flake8"
 ]

@@ -56,9 +56,6 @@ black wcm
 Test runs:
 
 ```bash
-# package
-$ python -m wcm
-run
 # script declared in pyproject.toml
 $ example
 run

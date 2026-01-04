@@ -605,7 +605,7 @@ wheels = [
 ]
 
 [[package]]
-name = "vpn-manager"
+name = "wcm"
 version = "2024.12.0a0"
 source = { editable = "." }
 dependencies = [

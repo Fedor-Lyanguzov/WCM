@@ -5,7 +5,9 @@ version = "2024.12.0a"
 license = {file = "LICENSE"}
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = ["click>=8.1"]
+dependencies = [
+    "click>=8.1",
+]
 authors = [
     {name = "Fedor Lyanguzov"},
 ]

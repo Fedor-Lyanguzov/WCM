@@ -14,9 +14,11 @@ wcm network show
 
 # peers
 wcm peer add temp
-wcm peer add server to network test --pass-thru=0.0.0.0/0 --port=59
-wcm peer add alice to network test --address=10.0.0.150
-wcm peer add bob to network test --with-pk=wireguardprivatekey=
+wcm peer add server --to-network test --pass-thru=0.0.0.0/0 --port=59
+wcm peer add alice --to-network test --address=10.0.0.150
+wcm peer add bob --with-pk=wireguardprivatekey=
+wcm connect bob test
+wcm disconnect bob all
 wcm peer remove alice from network test
 wcm peer delete alice
 wcm peer show
